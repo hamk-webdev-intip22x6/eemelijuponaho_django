@@ -1,0 +1,44 @@
+[
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "What's new?",
+        "pub_date": "2023-11-16T08:48:55.513Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+        "question_text": "Is this the second question?",
+        "pub_date": "2023-11-16T09:34:52Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 3,
+    "fields": {
+        "question_text": "future question",
+        "pub_date": "2023-11-19T09:53:58Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "not much",
+        "votes": 2
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "choice_text": "the sky",
+        "votes": 2
+    }
+}
+]
